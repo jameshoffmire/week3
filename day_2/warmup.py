@@ -12,3 +12,6 @@ def most_common_letter(s):
 
 most_common_letter(s)
 
+
+def find_double(nums):
+    return [x for x in nums if x*2 in nums]
